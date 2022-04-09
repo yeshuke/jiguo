@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./shangping.css">
+</head>
+
+<body>
+    <div class="shangping">
+        <!-- <div class="one">
+            <img src="../JiGuo/img/hot9.jpg">
+            <h3>Liquid Image 338 运动摄像眼镜</h3>
+            <span>2032</span><span>20台</span>
+        </div> -->
+        <!-- <div class="one">
+            <img src="../JiGuo/img/hot9.jpg">
+            <h3>Liquid Image 338 运动摄像眼镜</h3>
+            <span>2032</span><span>20台</span>
+        </div> -->
+    </div>
+
+</body>
+
+</html>
+<script src="./template-web.js"></script>
+<script src="./jquery.min.js"></script>
+<script src="./xuanran.js"></script>
+<script type="text/html" id="tpl">
+{{each res}}
+    <div class="one">
+        <img src="{{$value.img}}">
+        <h3>{{$value.text}}</h3>
+        <span>{{$value.price}}</span>
+        <span>{{$value.like}}</span>
+    </div>
+{{/each}}
+</script>

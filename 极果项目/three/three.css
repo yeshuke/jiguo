@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 矢量图库 */
+  .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+  }
+  
+  /* 外面最大的盒子 */
+  .big {
+    width: 1425px;
+    /* height: 1000px; */
+    /* border: 1px solid red; */
+    margin: auto;
+  }
+  
+  /* 头部 */
+  .top {
+    width: 1425px;
+    height: 80px;
+    border-bottom: 2px solid #505050;
+  }
+  .top > img {
+    height: 80px;
+    /* border: 1px solid red; */
+  }
+  .top_zhongjian {
+    list-style: none;
+    /* text-decoration: none; */
+    display: inline-block;
+  }
+  .top_zhongjian > li {
+    float: left;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+  }
+  .top_zhongjian > li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .fangdajing > a {
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid red; */
+    float: right;
+    margin-top: -90px;
+    margin-right: 200px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    color: black;
+  }
+  .zhuce > a {
+    width: 60px;
+    height: 30px;
+    /* border: 2px solid red; */
+    float: right;
+    margin-top: -60px;
+    margin-right: 100px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    color: red;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .bottom{
+      width:1425px;
+      /* border: 1px solid black; */
+  }
+  .bottom_right{
+      width: 350px;
+      height: 450px;
+      background-color: #f3f3f3;
+  }
+  .bottom_right>h3{
+      height: 80px;
+      width:310px;
+      border-bottom: 1px solid black;
+      margin-left: 10px;
+      text-align: center;
+      line-height:80px;
+  }
+  .bottom_right>h4{
+    height: 30px;
+    width:310px;
+    margin-left: 10px;
+  }
+  .bottom_right>P{
+    height: 30px;
+    width:310px;
+    margin-left: 20px;
+  }
+  .bottom_left{
+    width: 1000px;
+    height: 800px;
+    background-color: #f3f3f3;
+    margin-left:420px;
+    margin-top:-450px;
+  }
+  .bottom_left>h3{
+    height: 80px;
+    border-bottom: 1px solid black;
+    margin-left: 10px;
+    text-align: center;
+    line-height:80px;
+}
+.bottom_left>h4{
+    height: 30px;
+    width:310px;
+    margin-left: 10px;
+    
+  }
+  

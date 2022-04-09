@@ -1,0 +1,33 @@
+.shangping{
+    width:1425px;
+    height: 8000px;
+    border: 1px solid red;
+}
+.one{
+    width: 280px;
+    height: 360px;
+    border: 1px solid red;
+    margin-left: 20px;
+    float: left;
+}
+.one>img{
+    width: 280px;
+    height: 160px;
+    border: 1px solid red;
+}
+.one>h3{
+    width: 280px;
+    height: 30px;
+    border: 1px solid red;
+}
+.one>span{
+    display: inline-block;
+    width:80px; 
+    height:30px;
+    border: 1px solid rgb(203, 14, 14);
+    border-radius:5px;  
+    text-align: center;
+    line-height:30px;
+    margin-top:0px;
+    margin-left: 20px;
+}
