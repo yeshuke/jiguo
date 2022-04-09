@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="./css/shiyong.css">
+</head>
+
+<body>
+    <!-- 最大盒子 -->
+    <div class="big">
+        <!-- 头部 -->
+        <div class="top">
+            <img src="./img/logonew.png">
+            <!-- 首页 酷玩 导购 使用 报告 -->
+            <ul class="top_zhongjian">
+                <li><a href="/">首页</a></li>
+                <li><a href="../two/two.html">酷玩</a></li>
+                <li><a href="/">导购</a></li>
+                <li><a href="/">试用</a></li>
+                <li><a href="/">报告</a></li>
+            </ul>
+            <div class="top_right">
+                <div class="fangdajing"><a href="/"><svg t="1640492678933" class="icon" viewBox="0 0 1024 1024"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2912" width="32" height="32">
+                            <path
+                                d="M889.6 838.4l-192-192C742.4 595.2 768 524.8 768 448c0-179.2-140.8-320-320-320S128 268.8 128 448s140.8 320 320 320c76.8 0 147.2-25.6 198.4-70.4l192 192c12.8 12.8 32 12.8 44.8 0C896 876.8 896 851.2 889.6 838.4zM192 448c0-140.8 115.2-256 256-256s256 115.2 256 256c0 140.8-115.2 256-256 256S192 588.8 192 448z"
+                                p-id="2913"></path>
+                        </svg></a>
+                </div>
+                <div class="zhuce">
+                    <a href="/">注册</a>
+                </div>
+            </div>
+        </div>
+        <!-- 导购清单 -->
+        <div class="daogou">
+            <div class='gouwu'>
+                免费试用
+            </div>
+            <div class="xin">
+                <div class="zuixin1"><a href="/">大众试用</a></div>
+                <div class="zuire"><a href="/">体验师专享</a></div>
+            </div>
+        </div>
+        <!-- 全部 申请中 试用中  已结束  -->
+        <div class="shenqing">
+            <div class="quanbu">
+                <a href="/">全部</a>
+            </div>
+            <div class="shenqingzhong">
+                <a href="/"><b>申请中</b></a>
+            </div>
+            <div class="shiyongzhong">
+                <a href="/">试用中</a>
+            </div>
+            <div class="jieshuzhong">
+                <a href="/">已结束</a>
+            </div>
+        </div> 
+        <!-- 商品详情-->
+       
+        <div class="shangping">
+            
+            <!-- 渲染到这个div下面 -->
+            
+        </div>
+        
+        <!-- 底部 -->
+        <div class="bottom">
+            <!-- 二维码 -->
+            <div class="bottom_left">
+                <img src="./img/code.png">
+                <div class="logo">
+                    <img src="./img/logoImg.jpg">
+                    <span>
+                        <br>
+                        全球酷玩使用导购平台<br>
+                        酷;新奇；好玩；品质<br>
+                        <br>
+                        微信添加"jquojguo"<br>
+                        获取我们的服务。
+                    </span>
+
+
+                </div>
+            </div>
+            <div class="bottom_right">
+                <!-- 免费试用 -->
+                <dl class="shiyong">
+                    <dt>
+                        免费试用
+                    <dd>
+                        <a href="/">试用流程</a>
+                    </dd><br>
+                    <dd>
+                        <a href="/">如何提高效率</a>
+                    </dd>
+                    </dt>
+                </dl>
+                <!-- 友情链接 -->
+                <dl class="youqing">
+                    <dt>友情链接
+                    <dd>管东西</dd><span class="aa">WEIBUSI</span>
+                    <dd>搜狐IT</dd><span class="aa">腾讯科技</span>
+                    <dd>搜狐数码</dd><span class="aa">凤凰科技</span>
+                    <dd>凤凰数码</dd><span class="aa">PConline</span>
+                    <dd>泡泡网</dd><span class="aa">3W咖啡</span>
+                    <dd>ZUK社区</dd><span class="aa">薏米emie</span>
+                    <dd>极客公园</dd><span class="aa">依循一起玩</span>
+                    <dd>果库</dd>
+                    </dt>
+                </dl>   
+                 <!-- 购买攻略 -->
+                 <dl class="goumai">
+                        <dt>
+                            购买攻略
+                        <dd>美白海淘教程</dd>
+                        <dd>美白淘教程</dd>
+                        <dd>美白海哈程</dd>
+                        <dd>美淘教程</dd>
+                    </dt>
+                 </dl>
+                <!-- 厂商合作 -->
+                
+                <dl class="changshang">
+                    <dt>厂商合作
+                        <dd>关于极果</dd>
+                        <dd>联系我们</dd>
+                        <dd>商务合作：BD@jiguo.com</dd>
+                        <dd>CEO：BD@jiguo.com</dd>
+                    </dt>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <script src="./iconfont.js"></script>
+</body>
+
+</html>
+<!-- 引入模板引擎 -->
+<script src="./js/template-web.js"></script>
+<!-- 引入jQuery模板 -->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/index.js"></script>
+<script type="text/html" id="tpl">
+    {{each res}}
+    <div class="sp2">
+        <img src="{{$value.img}}">
+        <h3>{{$value.text}}</h3>
+        <span>{{$value.uName}}</span>
+        <span>{{$value.endTime}}</span>
+    </div>
+    {{/each}}
+</script>
+

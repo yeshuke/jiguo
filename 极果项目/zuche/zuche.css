@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 矢量图库 */
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+}
+body {
+  background-color: #f7f7f7;
+}
+/* 外面最大的盒子 */
+.big {
+  width: 1425px;
+  /* height: 1000px; */
+  /* border: 1px solid red; */
+  margin: auto;
+  background-color: #f7f7f7;
+}
+
+/* 头部 */
+.top {
+  width: 1425px;
+  height: 80px;
+  border-bottom: 2px solid #ddd7d7;
+  background-color: white;
+}
+.top > img {
+  height: 80px;
+  /* border: 1px solid red; */
+}
+.top_zhongjian {
+  list-style: none;
+  /* text-decoration: none; */
+  display: inline-block;
+}
+.top_zhongjian > li {
+  float: left;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+.top_zhongjian > li a {
+  text-decoration: none;
+  color: black;
+}
+
+.fangdajing > a {
+  width: 80px;
+  height: 80px;
+  /* border: 1px solid red; */
+  float: right;
+  margin-top: -90px;
+  margin-right: 200px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80px;
+  color: black;
+}
+.zhuce > a {
+  width: 60px;
+  height: 30px;
+  /* border: 2px solid red; */
+  float: right;
+  margin-top: -60px;
+  margin-right: 100px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+  color: red;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.zuche {
+}
+.zuche2 {
+  width: 1425px;
+  border: 1px solid #ddd7d7;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 20px;
+}
+.zuche2>h3 span {
+  display: inline-block;
+  color: red;
+  margin-left: -2px;
+  padding-right: 10px;
+}
+
+.zuche3 {
+  width: 460px;
+  /* height: 80px; */
+  /* border: 1px solid salmon; */
+  margin: auto;
+}
+
+/* 注册input框开始 */
+.shoujihao>input{
+    width:400px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ececec;
+    border: none;
+}
+.shoujihao>span{
+    display: block;
+    width: 120px;
+    height:50px;
+    /* border: 1px solid red; */
+    margin-top:-50px;
+    margin-left:-120px;
+    text-align: center;
+    line-height:50px;
+}
+.yanzhengma>input{
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ececec;
+    border: none;
+    margin-top: 20px;
+}
+.yanzhengma>span img{
+    display: inline-block;
+    /* border: 1px solid red; */
+    margin-bottom:-10px;
+    margin-left: 20px;
+    
+}
+.yanzheengma2>input{
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ececec;
+    border: none;
+    margin-top: 20px;
+}
+.yanzheengma2>button{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    color: #757575;
+    background-color: #ececec;
+    border: none;
+    margin-left: 20px;
+}
+.username>input{
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ececec;
+    border: none;
+    margin-top: 20px;
+}
+.username>span{
+    display: block;
+    width: 100px;
+    height:50px;
+    /* border: 1px solid red; */
+    margin-top:-50px;
+    margin-left:-110px;
+}
+.password>input{
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ececec;
+    border: none;
+    margin-top: 20px;
+}
+.password>span{
+    display: block;
+    width: 100px;
+    height:50px;
+    /* border: 1px solid red; */
+    margin-top:-50px;
+    margin-left:-110px;
+}
+.password2>input{
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ececec;
+    border: none;
+    margin-top: 20px;
+}
+.password2>span{
+    display: block;
+    width: 100px;
+    height:50px;
+    /* border: 1px solid red; */
+    margin-top:-50px;
+    margin-left:-110px;
+}
+.btn2{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fe5341;
+    border: none;
+    margin-top: 20px;
+    color: white;
+}
